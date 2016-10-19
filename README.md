@@ -14,6 +14,8 @@ A Python script to crawl down news from school`s website and mail to you through
 - Change the 'mail_info', especially "to", I don`t wanna receive tons of mails when you test this script.
 - "hostname" mustn`t change; "from" must be same to "username"; you may use your own tencent smtp user account, or mine, as you like.
 
+Ps. You may download BeautifulSoup before running the script, it contains the 'bs4' library, which is nessesary.
+
 Anyway, it`s not a complicated code that you can surely understand every line even you are a beginner.
 
 And if you are a Sun Yet-sen University`s student, you may use it with nothing to change but the mail receiver.
