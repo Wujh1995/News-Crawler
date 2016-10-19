@@ -19,3 +19,13 @@ Ps. You may download BeautifulSoup before running the script, it contains the 'b
 Anyway, it`s not a complicated code that you can surely understand every line even you are a beginner.
 
 And if you are a Sun Yet-sen University`s student, you may use it with nothing to change but the mail receiver.
+
+If you suffered enough the black frame when running the script and want it run in back-stage, you may type the following command.
+
+Under Windows cmd:
+>> start pythonw crawl.py
+
+Under Linux terminal:
+$ python crawl.py &
+
+Then the annoying black frame will not appear again.
