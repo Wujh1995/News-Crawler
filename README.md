@@ -1,5 +1,6 @@
 # News-Crawler
 A Python script to crawl down news from school`s website and mail to you through SMTP Protocol
+It`s for static website.
 
 **Contains 2 files:**
 - **crawl.py**  The main file that you should run after configuring;
@@ -11,7 +12,7 @@ A Python script to crawl down news from school`s website and mail to you through
   - At the bottom, there are a main function and a 'Run' function, if you change the number of websites that to be crawled, you should change these code too.
 
 **In iMessage.py:**
-- Change the 'mail_info', especially "to", I don`t wanna receive tons of mails when you test this script.
+- Change the 'mail_info' to adapt your need.
 - "hostname" mustn`t change; "from" must be same to "username"; you may use your own tencent smtp user account, or mine, as you like.
 
 Ps. You may download BeautifulSoup before running the script, it contains the 'bs4' library, which is nessesary.
@@ -29,3 +30,5 @@ Under Linux terminal:
 $ python crawl.py &
 
 Then the annoying black frame will not appear again.
+
+**simple_version.py** is a simple all-in-one version for new learners, it crawls only one website.
